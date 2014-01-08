@@ -5,7 +5,7 @@ originally designed this to recover a Windows product key. This was done by
 enumerating all possible keys and feeding them into a key checker (e.g., [The
 Ultimate PID Checker](http://janek2012.eu/ultimate-pid-checker/)). The
 applicability of `listkeys` is very limited and highly depends on the
-readability of the key you want to recover and speed of veryifing each possible key.
+readability of the key you want to recover and speed of verifying each possible key.
 
 ## Installation
 
@@ -13,7 +13,8 @@ readability of the key you want to recover and speed of veryifing each possible 
 $ go get github.com/tvdburgt/listkeys
 ```
 
-Or install the [http://bit.ly/listkeys](binary) directly, if you don't have Go installed.
+Or download the [binary](http://bit.ly/listkeys) directly, if you don't have Go
+installed.
 
 ## Usage 
 
